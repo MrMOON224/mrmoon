@@ -34,6 +34,105 @@ a:hover {
   opacity: 0.85;
   text-decoration: underline;
 }
+.header1 {
+    display: flex;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Staatliches&display=swap');
+.gif {
+    height: auto;
+    width: 50%;
+    right: 1px;
+    border-radius: 10px;
+    position: static;
+    animation-name: gifa;
+    animation-duration: 0.9s;
+}
+.a {
+    width: 45%;
+    height: auto;
+    font-size: 250%;
+    font-family: Staatliches;
+    letter-spacing: 3px;
+    animation-name: wel;
+    animation-duration: 0.9s;
+}
+
+.b {
+    width: 100%;
+    height: auto;
+    font-size: 150%;
+    position: static;
+    display: block;
+}
+.c {
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+}
+.e {
+  color: indianred;
+  opacity: 1;
+  text-decoration: none;
+}
+.content {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 30px;
+    -webkit-font-smoothing: antialiased;
+}
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+.img {
+  height: auto;
+    position: relative;
+    right: 5px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    width: 80%;
+    animation-name: im;
+    animation-duration: 0.5s;
+}
+@keyframes im {
+   0% {
+       transform: opacity: 0%;
+   }
+   50% {
+       transform: opacity: 50%;
+   }
+   100% {
+       transform: opacity: 100%;
+   }
+}
+.header4 {
+display: flex;
+}
+.mywork {
+    width: 100%;
+    height: auto;
+}
+.ee {
+    width: 100%;
+    height: auto;
+    justify-content: left;
+}
+.icon {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    right: -75%;
+}
+.icon2 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 25%;
+}
+.soc {
+    border: 1.3px solid indianred;
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+}
 
 /* Navigation Styles */
 /* Header */
@@ -200,6 +299,122 @@ a:hover {
     z-index: 10;
   }
 }
+@media only screen and (max-width: 768px) {
+    .header1 {
+        display: block;
+}
+.dark-mode {
+    background-color: white;
+    color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Staatliches&display=swap');
+.gif {
+    height: auto;
+    width: 60%;
+    border-radius: 10px;
+    animation-name: gifa;
+    animation-duration: 0.9s;
+}
+.a {
+    width: 100%;
+    height: auto;
+    font-size: 250%;
+    font-family: Staatliches;
+    letter-spacing: 3px;
+    animation-name: wel;
+    animation-duration: 0.9s;
+}
+
+.b {
+    width: 100%;
+    height: auto;
+    font-size: 150%;
+    position: static;
+    display: block;
+}
+.c {
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+}
+.e {
+  color: indianred;
+  opacity: 1;
+  text-decoration: none;
+}
+.content {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 30px;
+    -webkit-font-smoothing: antialiased;
+}
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+.img {
+  height: auto;
+    position: relative;
+    right: 5px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    width: 80%;
+    animation-name: im;
+    animation-duration: 0.5s;
+}
+@keyframes im {
+   0% {
+       transform: opacity: 0%;
+   }
+   50% {
+       transform: opacity: 50%;
+   }
+   100% {
+       transform: opacity: 100%;
+   }
+}
+.header4 {
+display: flex;
+}
+.mywork {
+    width: 100%;
+    height: auto;
+}
+.ee {
+    width: 100%;
+    height: auto;
+    justify-content: left;
+}
+}
+.header4 {
+display: flex;
+}
+.mywork {
+    width: 100%;
+    height: auto;
+}
+.ee {
+    width: 100%;
+    height: auto;
+    justify-content: left;
+}
+.icon {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    right: -75%;
+}
+.icon2 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 25%;
+}
+.soc {
+    border: 1.3px solid indianred;
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+}
+}
 .dark-mode {
     background-color: white;
     color: black;
@@ -270,103 +485,4 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-}
-.header1 {
-    display: flex;
-}
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Staatliches&display=swap');
-.gif {
-    height: auto;
-    width: 50%;
-    right: 1px;
-    border-radius: 10px;
-    position: static;
-    animation-name: gifa;
-    animation-duration: 0.9s;
-}
-.a {
-    width: 45%;
-    height: auto;
-    font-size: 250%;
-    font-family: Staatliches;
-    letter-spacing: 3px;
-    animation-name: wel;
-    animation-duration: 0.9s;
-}
-
-.b {
-    width: 100%;
-    height: auto;
-    font-size: 150%;
-    position: static;
-    display: block;
-}
-.c {
-    display: flex;
-    justify-content: left;
-    font-size: 30px;
-}
-.e {
-  color: indianred;
-  opacity: 1;
-  text-decoration: none;
-}
-.content {
-  text-align: center;
-  margin-top: 2em;
-  font-size: 30px;
-    -webkit-font-smoothing: antialiased;
-}
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
-.img {
-  height: auto;
-    position: relative;
-    right: 5px;
-    border-radius: 8px;
-    background-color: transparent;
-    border: 0.5px solid white;
-    width: 80%;
-    animation-name: im;
-    animation-duration: 0.5s;
-}
-@keyframes im {
-   0% {
-       transform: opacity: 0%;
-   }
-   50% {
-       transform: opacity: 50%;
-   }
-   100% {
-       transform: opacity: 100%;
-   }
-}
-.header4 {
-display: flex;
-}
-.mywork {
-    width: 100%;
-    height: auto;
-}
-.ee {
-    width: 100%;
-    height: auto;
-    justify-content: left;
-}
-.icon {
-    height: 50px;
-    width: 50px;
-    position: relative;
-    right: -75%;
-}
-.icon2 {
-    height: 50px;
-    width: 50px;
-    position: relative;
-    left: 25%;
-}
-.soc {
-    border: 1.3px solid indianred;
-    width: 100%;
-    height: auto;
-    padding: 15px 0px;
 }
